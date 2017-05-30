@@ -1,0 +1,141 @@
+/*===================================================
+INDEX
+====================================================*/
+* {
+	color: #333333;
+	font-family: Century Gothic, sans-serif;	
+}
+
+.btn-up {
+	background: #31825D;
+	border-radius: 50%;
+	bottom: 20px;
+	box-shadow: 0px 2px 10px rgba(0,0,0,.4);
+	color: #fff;
+	cursor: pointer;
+	display: none;
+	font-size: 2rem;
+	height: 56px;
+	line-height: 21px;
+	text-align: center;
+	position: fixed;
+	right: 20px;
+	width: 56px;
+	z-index: 2;
+}
+
+.color { 
+	color: #FFF;
+	text-align: center;
+	margin-top: 1px;
+}
+
+#logo, #menu-section { 
+	background-color: #31825D;
+	color: #FFF;
+}
+
+#sidebar {
+	text-align: center;
+	align-content: center;
+}
+
+#menu-section {
+	padding-left: 2em;
+	padding-top: 1em;
+	padding-bottom: .5em;
+}
+
+#main { 
+	background: #94D57C;
+	margin-top: 0px;
+	padding-top: 20px;
+	padding-left: 10%;
+	padding-right: 10%;
+	text-align: center;
+}
+
+#main h1, #main h2, #main h4  { 
+	color: #FFF; 
+	text-align: center;
+}
+
+h2 { color: #94D57C; }
+
+#main h4, h1 { padding-bottom: 30px; }
+
+#options {
+	padding-top: 6%;
+	text-align: left;
+}
+
+#options ul li {
+	padding-top: 1em;
+	padding-left: 10%;
+}
+
+#options ul li:hover {
+	background-color: #F2F2F2;
+}
+
+footer { background: #94D57C; }
+
+@media screen and (max-width: 1050px) {
+	#main { 
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+
+	h2 { padding-left: .5em; }
+}
+
+/*====================================================
+TEXT EDITOR
+====================================================*/
+.relevant-content {
+	background-color: #F5F5F5;
+	border-radius: .25em;
+	padding: .25em;
+	margin-top: 1em;
+}
+
+.cell {
+	border-bottom: 0.5px solid #DDD;
+	border-right: 0.5px solid #DDD;
+}
+
+.border-left { border-left: 0.5px solid #DDD; }
+
+.comment { color: #BDBDBD; }
+
+.indent { text-indent: 3%; }
+
+.indent-double { text-indent: 6%; }
+
+.indent-triple { text-indent: 9%; }
+
+.keyword, .operator { color: #63A35C; }
+
+.method, .attribute { color: #795DA3; }
+
+.value { color: #183691; }
+
+section { margin: 1em 0; }
+
+.developer { text-align: center; }
+
+.developer img {
+	width: 50px;
+	height: 50px;
+	margin-bottom: -5px;
+}
+
+/*====================================================
+FOOTER
+====================================================*/
+footer {
+    padding: 1rem;
+    text-align: center;
+    background: #94D57C;
+    color: #FFF;
+}

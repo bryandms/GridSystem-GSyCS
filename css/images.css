@@ -1,0 +1,27 @@
+/*====================================================
+IMAGES
+====================================================*/
+.img-responsive {
+    width: 100%;
+    height: auto;
+}
+
+.img-icon { 
+    height: 1rem;
+    width: 1rem;
+}
+
+.img-rounded {
+    border-radius: 0.5em;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.img-framed {
+    border: 1px solid #DDDDDD;
+    padding: 0.25rem;
+    background: #FFF;
+    border-radius: 0.25em;
+}

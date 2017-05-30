@@ -1,0 +1,56 @@
+.red { background-color: #EF5350; }
+button.red:hover { background-color: #E57373; }
+
+.pink { background-color: #EC407A; }
+button.pink:hover { background-color: #F06292; }
+
+.purple { background-color: #AB47BC; }
+button.purple:hover { background-color: #BA68C8; }
+
+.deep-purple { background-color: #7E57C2; }
+button.deep-purple:hover { background-color: #9575CD; }
+
+.indigo { background-color: #5C6BC0; }
+button.indigo:hover { background-color: #7986CB; }
+
+.blue { background-color: #42A5F5; }
+button.blue:hover { background-color: #90CAF9; }
+
+.light-blue { background-color: #29B6F6; }
+button.light-blue:hover { background-color: #4FC3F7; }
+
+.cyan { background-color: #26C6DA; }
+button.cyan:hover { background-color: #4DD0E1; }
+
+.teal { background-color: #26A69A; }
+button.teal:hover { background-color: #4DB6AC; }
+
+.green { background-color: #66BB6A; }
+button.green:hover { background-color: #81C784; }
+
+.light-green { background-color: #8BC34A; }
+button.light-green:hover { background-color: #AED581; }
+
+.lime { background-color: #D4E157; }
+button.lime:hover { background-color: #DCE775; }
+
+.yellow { background-color: #FFEE58; }
+button.yellow:hover { background-color: #FFF176; }
+
+.amber { background-color: #FFCA28; }
+button.amber:hover { background-color: #FFD54F; }
+
+.orange { background-color: #FFA726; }
+button.orange:hover { background-color: #FFB74D; }
+
+.deep-orange { background-color: #FF7043; }
+button.deep-orange:hover { background-color: #FF8A65; }
+
+.brown { background-color: #8D6E63; }
+button.brown:hover { background-color: #A1887F; }
+
+.grey { background-color: #BDBDBD; }
+button.grey:hover { background-color: #E0E0E0; }
+
+.blue-grey { background-color: #78909C; }
+button.blue-grey:hover { background-color: #90A4AE; }
