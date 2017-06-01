@@ -1,0 +1,160 @@
+/*====================================================
+GENERAL
+====================================================*/
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+
+a:link, a:visited, a:active, a:hover, a:focus {
+	text-decoration: none;
+}
+
+.container, .row, .content {
+	position: relative;
+	margin: auto;
+	width: 100%;
+	height: auto;
+	clear: both;
+	overflow-x:auto;
+}
+
+.content { padding: 1em 2em; }
+
+.col {
+	position: relative;
+	float: left;
+	height: auto;
+	overflow-x:auto;
+}
+
+/*====================================================
+LARGE DEVICES
+====================================================*/
+@media (min-width: 1200px) {
+
+	.l-12 {width: 100%;}
+
+	.l-11 {width: 91.66666667%;}
+
+	.l-10 {width: 83.33333333%;}
+
+	.l-9 {width: 75%;}
+
+	.l-8 {width: 66.666666667%;}
+
+	.l-7 {width: 58.333333333%;}
+
+	.l-6 {width: 50%;}
+
+	.l-5 {width: 41.66666667%;}
+
+	.l-4 {width: 33.33333333%;}
+
+	.l-3 {width: 25%;}
+
+	.l-2 {width: 16.66666667%;}
+
+	.l-1 {width: 8.33333333%;}
+
+	.l-0 {display: none;}
+}
+
+/*====================================================
+MEDIUM DEVICES
+====================================================*/
+@media (max-width: 1199px) and (min-width: 992px) {
+
+	.m-12 {width: 100%;}
+
+	.m-11 {width: 91.66666667%;}
+
+	.m-10 {width: 83.33333333%;}
+
+	.m-9 {width: 75%;}
+
+	.m-8 {width: 66.666666667%;}
+
+	.m-7 {width: 58.333333333%;}
+
+	.m-6 {width: 50%;}
+
+	.m-5 {width: 41.66666667%;}
+
+	.m-4 {width: 33.33333333%;}
+
+	.m-3 {width: 25%;}
+
+	.m-2 {width: 16.66666667%;}
+
+	.m-1 {width: 8.33333333%;}
+
+	.m-0 {display: none;}
+}
+
+/*====================================================
+SMALL DEVICES
+====================================================*/
+@media (max-width: 991px) and (min-width: 768px) {
+
+	.s-12 {width: 100%;}
+
+	.s-11 {width: 91.66666667%;}
+
+	.s-10 {width: 83.33333333%;}
+
+	.s-9 {width: 75%;}
+
+	.s-8 {width: 66.666666667%;}
+
+	.s-7 {width: 58.333333333%;}
+
+	.s-6 {width: 50%;}
+
+	.s-5 {width: 41.66666667%;}
+
+	.s-4 {width: 33.33333333%;}
+
+	.s-3 {width: 25%;}
+
+	.s-2 {width: 16.66666667%;}
+
+	.s-1 {width: 8.33333333%;}
+
+	.s-0 {display: none;}
+}
+
+/*====================================================
+EXTRA SMALL DEVICES
+====================================================*/
+@media (max-width: 767px) {
+
+	.xs-12 {width: 100%;}
+
+	.xs-11 {width: 91.66666667%;}
+
+	.xs-10 {width: 83.33333333%;}
+
+	.xs-9 {width: 75%;}
+
+	.xs-8 {width: 66.666666667%;}
+
+	.xs-7 {width: 58.333333333%;}
+
+	.xs-6 {width: 50%;}
+
+	.xs-5 {width: 41.66666667%;}
+
+	.xs-4 {width: 33.33333333%;}
+
+	.xs-3 {width: 25%;}
+
+	.xs-2 {width: 16.66666667%;}
+
+	.xs-1 {width: 8.33333333%;}
+
+	.xs-0 {display: none;}
+}

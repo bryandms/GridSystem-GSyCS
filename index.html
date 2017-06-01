@@ -1,0 +1,1319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>GridSystem & Components Styles</title>
+	<link rel="stylesheet" href="css/gridsystem.css">
+	<link rel="stylesheet" href="css/typography.css">
+	<link rel="stylesheet" href="css/buttons.css">
+	<link rel="stylesheet" href="css/images.css">
+	<link rel="stylesheet" href="css/inputs.css">
+	<link rel="stylesheet" href="css/labels.css">
+	<link rel="stylesheet" href="css/colors.css">
+	<link rel="stylesheet" href="css/modal.css">
+	<link rel="stylesheet" href="css/navs.css">
+	<link rel="stylesheet" href="css/panels.css">
+	<link rel="stylesheet" href="css/tables.css">
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body onload="responsive()">
+
+	<div class="container">
+
+		<span id="up-action" class="btn-up">&#8248;</span>
+
+		<!-- Menu -->
+		<div id="menu-section">
+			<a id="menu-icon" onclick="showSidebar();"><img id="menu" src="img/menu.png" style="height: 24px; width: 24px;"></a>
+		</div>
+		
+		<!-- Sidebar -->
+		<div id="sidebar" class="col l-3 m-3 s-3 xs-3">
+			<!-- Logo -->
+			<div id="logo" class="row">
+				<img src="img/logo.png">
+			</div>
+			<!-- Options -->
+			<div id="options" class="row">
+				<ul>
+				    <li><a href="#features"> Features </a></li>
+				    <li><a href="#typography"> Typography </a></li>
+				    <li><a href="#container"> Container </a></li>
+				    <li><a href="#row"> Row </a></li>
+				    <li><a href="#column"> Column </a></li>
+				    <li><a href="#colors"> Colors </a></li>
+				    <li><a href="#gridsystem"> Gridsystem </a></li>
+				    <li><a href="#button"> Buttons </a></li>
+				    <li><a href="#image"> Images </a></li>
+					<li><a href="#input"> Inputs </a></li>
+					<li><a href="#label"> Labels </a></li>
+					<li><a href="#nav"> Navs </a></li>
+					<li><a href="#panel"> Panels </a></li>
+					<li><a href="#table"> Tables </a></li>
+					<li><a href="#modal-section"> Modal </a></li>
+				</ul>
+			</div>
+		</div>
+
+		<!-- Content -->
+		<div id="content" class="col l-9 m-9 s-9 xs-9">
+
+			<!-- Main -->
+			<section id="main">
+				<h1>Gridsystem & Components Styles</h1>
+				<h4>Grid System is a grid system similar to Bootstrap, which allows you to organize the content of your website so that it can be adapted to different devices.</h4>
+				<h2>You can collaborate</h2>
+				<h4>If you are attracted by this small project, you can collaborate to make GC & CS grow.</h4>
+				<a href="https://github.com/bryandms/GridSystem-GSyCS" target="_blank">
+					<img src="img/github-logo.png">
+				</a>
+				<h4>Let's see what contains GC & CS and encourage you to use it and improve it.</h4>
+			</section>
+
+			<!-- GridSystem Features Section -->
+			<section id="features">
+				<h2>Features</h2><hr>
+				<div class="content">
+					<p>This system works by means of rows and columns, using a system similar to the bootstrap (12 grids). To organize the content of the website.</p>
+					<p>This system is responsive, allowing it to adapt to different devices.</p>
+					<p>The "container" class must be used to contain the "row" classes.</p>
+					<p>The "row" class must contain the "col" classes.</p>
+					<p>The "col" class must be accompanied by a second class which indicates the number of grids to be covered. These classes that indicate the amount of grids to be covered are: l - # (large devices), m - # (medium devices), s - # (small devices) and xs (extra small devices). Where "#" indicates the number of columns to be covered, this number is given by a number from 0 to 12, where 0 does not include any columns and 12 covers the entire width of its container</p>
+					<p>NOTE: the 0 indicates that at this point the column will not be visible.</p>
+				</div>
+			</section>
+
+			<!-- Typography -->
+			<section id="typography">
+				<h2>Typography</h2><hr>
+				<div class="content">
+					<h4><b>Typographies</b></h4>
+					<p>We include 16 standard fonts for use with CSS, making it easier to use with CSS classes.</p>
+					<!-- Typography Fonts Styles-->
+					<table class="table-border-bottom stripped">
+						<thead>
+							<tr>
+								<th>Font</th>
+								<th>Class</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><p class="arial">GridSystem & Components Styles</p></td>
+								<td>arial</td>
+							</tr>
+							<tr>
+								<td><p class="arial-black">GridSystem & Components Styles</p></td>
+								<td>arial-black</td>
+							</tr>
+							<tr>
+								<td><p class="arial-narrow">GridSystem & Components Styles</p></td>
+								<td>arial-narrow</td>
+							</tr>
+							<tr>
+								<td><p class="century-gothic">GridSystem & Components Styles</p></td>
+								<td>century-gothic</td>
+							</tr>
+							<tr>
+								<td><p class="copperplate-gothic-light">GridSystem & Components Styles</p></td>
+								<td>copperplate-gothic-light</td>
+							</tr>
+							<tr>
+								<td><p class="courier-new">GridSystem & Components Styles</p></td>
+								<td>courier-new</td>
+							</tr>
+							<tr>
+								<td><p class="georgia">GridSystem & Components Styles</p></td>
+								<td>georgia</td>
+							</tr>
+							<tr>
+								<td><p class="gill-sans">GridSystem & Components Styles</p></td>
+								<td>gill-sans</td>
+							</tr>
+							<tr>
+								<td><p class="impact">GridSystem & Components Styles</p></td>
+								<td>impact</td>
+							</tr>
+							<tr>
+								<td><p class="lucida-console">GridSystem & Components Styles</p></td>
+								<td>lucida-console</td>
+							</tr>
+							<tr>
+								<td><p class="lucida-sans-unicode">GridSystem & Components Styles</p></td>
+								<td>lucida-sans-unicode</td>
+							</tr>
+							<tr>
+								<td><p class="palatino-linotype">GridSystem & Components Styles</p></td>
+								<td>palatino-linotype</td>
+							</tr>
+							<tr>
+								<td><p class="tahoma">GridSystem & Components Styles</p></td>
+								<td>tahoma</td>
+							</tr>
+							<tr>
+								<td><p class="times-new-roman">GridSystem & Components Styles</p></td>
+								<td>times-new-roman</td>
+							</tr>
+							<tr>
+								<td><p class="trebuchet-ms">GridSystem & Components Styles</p></td>
+								<td>trebuchet-ms</td>
+							</tr>
+							<tr>
+								<td><p class="verdana">GridSystem & Components Styles</p></td>
+								<td>verdana</td>
+							</tr>
+						</tbody>
+					</table>
+					<!-- Code -->
+					<div class="relevant-content">
+						<p>
+							<span class="keyword">&lt;p</span>
+							<span class="attribute">class=</span>
+							<span class="value">"(class)"</span>
+							<span class="keyword">&gt;</span>
+							GridSystem & Components Styles
+							<span class="keyword">&lt;&#x2215;p&gt;</span>
+						</p>
+					</div>
+					
+					<h4><b>Font size</b></h4>
+					<p>We facilitate the resizing of fonts by implementing classes.</p>
+					<table class="table-border-bottom stripped">
+						<thead>
+							<tr>
+								<th>Sample</th>
+								<th>Class</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><p class="xxs-t">GridSystem & Components Styles</p></td>
+								<td>xxs-t</td>
+							</tr>
+							<tr>
+								<td><p class="xs-t">GridSystem & Components Styles</p></td>
+								<td>xs-t</td>
+							</tr>
+							<tr>
+								<td><p class="s-t">GridSystem & Components Styles</p></td>
+								<td>s-t</td>
+							</tr>
+							<tr>
+								<td><p class="m-t">GridSystem & Components Styles</p></td>
+								<td>m-t</td>
+							</tr>
+							<tr>
+								<td><p class="l-t">GridSystem & Components Styles</p></td>
+								<td>l-t</td>
+							</tr>
+							<tr>
+								<td><p class="xl-t">GridSystem & Components Styles</p></td>
+								<td>xl-t</td>
+							</tr>
+							<tr>
+								<td><p class="xxl-t">GridSystem & Components Styles</p></td>
+								<td>xxl-t</td>
+							</tr>
+							<tr>
+								<td><p class="small">GridSystem & Components Styles</p></td>
+								<td>small</td>
+							</tr>
+							<tr>
+								<td><p class="large">GridSystem & Components Styles</p></td>
+								<td>large</td>
+							</tr>
+						</tbody>
+					</table>
+					<!-- Code -->
+					<div class="relevant-content">
+						<p>
+							<span class="keyword">&lt;p</span>
+							<span class="attribute">class=</span>
+							<span class="value">"(class)"</span>
+							<span class="keyword">&gt;</span>
+							GridSystem & Components Styles
+							<span class="keyword">&lt;&#x2215;p&gt;</span>
+						</p>
+					</div>
+				</div>
+			</section>
+
+			<!-- Container Section -->
+			<section id="container">
+				<h2>Container Class</h2><hr>
+				<div class="content">
+					<p>Container class can be used to add website content.</p>
+					<div class="relevant-content">
+						<p>
+							<p>
+								<span class="keyword">&lt;div </span>
+								<span class="attribute">class=</span>
+								<span class="value">"container"</span>
+								<span class="keyword">&gt;</span>
+							</p>
+							<div class="row">
+								<p class="indent">content</p>
+							</div>
+							<p>
+								<span class="keyword">&lt;&#x2215;div&gt;</span>
+							</p>
+						</p>
+					</div>
+				</div>
+			</section>
+
+			<!-- Row Section -->
+			<section id="row">
+				<h2>Row Class</h2><hr>
+				<div class="content">
+					<p>The row class is used to group column classes, this class occupies 100% of the size of its container. Its size is equivalent to 12 grids.</p>
+					<div class="relevant-content">
+						<p>
+							<p>
+								<span class="keyword">&lt;div </span>
+								<span class="attribute">class=</span>
+								<span class="value">"row"</span>
+								<span class="keyword">&gt;</span>
+							</p>
+							<div class="row">
+								<p class="indent">row</p>
+							</div>
+							<p>
+								<span class="keyword">&lt;&#x2215;div&gt;</span>
+							</p>
+						</p>
+					</div>
+				</div>
+			</section>
+
+			<!-- Columns Section -->
+			<section id="column">
+				<h2>Col Class</h2><hr>
+				<div class="content">
+					<p>Example of col class that covers the twelve grids in any device.</p>
+					<div class="relevant-content">
+						<p>
+							<p>
+								<span class="keyword">&lt;div </span>
+								<span class="attribute">class=</span>
+								<span class="value">"row"</span>
+								<span class="keyword">&gt;</span>
+							</p>
+							<p class="indent">
+								<span class="keyword">&lt;div </span>
+								<span class="attribute">class=</span>
+								<span class="value">"col l-12 m-12 s-12 xs-12"</span>
+								<span class="keyword">&gt;</span>
+							</p>
+							<p class="indent-double"> col-(device)-12 </p>
+							<p class="indent">
+								<span class="keyword">&lt;&#x2215;div&gt;</span>
+							</p>
+							<p>
+								<span class="keyword">&lt;&#x2215;div&gt;</span>
+							</p>
+						</p>
+					</div>
+				</div>
+			</section>
+
+			<section id="colors">
+				<h2>Colors</h2><hr>
+				<div class="content">
+					<p>To use the colors just add the class.</p>
+					<div class="col l-12 m-12 s-12 xs-12 red color">red</div>
+					<div class="col l-12 m-12 s-12 xs-12 pink color">pink</div>
+					<div class="col l-12 m-12 s-12 xs-12 purple color">purple</div>
+					<div class="col l-12 m-12 s-12 xs-12 deep-purple color">deep-purple</div>
+					<div class="col l-12 m-12 s-12 xs-12 indigo color">indigo</div>
+					<div class="col l-12 m-12 s-12 xs-12 blue color">blue</div>
+					<div class="col l-12 m-12 s-12 xs-12 light-blue color">light-blue</div>
+					<div class="col l-12 m-12 s-12 xs-12 cyan color">cyan</div>
+					<div class="col l-12 m-12 s-12 xs-12 teal color">teal</div>
+					<div class="col l-12 m-12 s-12 xs-12 green color">green</div>
+					<div class="col l-12 m-12 s-12 xs-12 light-green color">light-green</div>
+					<div class="col l-12 m-12 s-12 xs-12 lime color">lime</div>
+					<div class="col l-12 m-12 s-12 xs-12 yellow color">yellow</div>
+					<div class="col l-12 m-12 s-12 xs-12 amber color">amber</div>
+					<div class="col l-12 m-12 s-12 xs-12 orange color">orange</div>
+					<div class="col l-12 m-12 s-12 xs-12 deep-orange color">deep-orange</div>
+					<div class="col l-12 m-12 s-12 xs-12 brown color">brown</div>
+					<div class="col l-12 m-12 s-12 xs-12 grey color">grey</div>
+					<div class="col l-12 m-12 s-12 xs-12 blue-grey color">blue-grey</div>
+				</div>
+			</section>
+
+			<!-- Grid System Example-->
+			<section id="gridsystem">
+				<h2>GridSystem Example</h2><hr>
+				<!-- Example -->
+				<div class="content">
+					<div class="row">
+						<div class="col l-12 m-12 s-12 xs-12 cell"></div>
+					</div>
+					<div class="row">
+						<div class="col l-12 m-12 s-12 xs-12 cell border-left"> 12 </div>
+					</div>
+					<div class="row">
+						<div class="col l-11 m-11 s-11 xs-11 cell border-left"> 11 </div>
+						<div class="col l-1 m-1 s-1 xs-1 cell"> 1 </div>
+					</div>
+					<div class="row">
+						<div class="col l-10 m-10 s-10 xs-10 cell border-left"> 10 </div>
+						<div class="col l-2 m-2 s-2 xs-2 cell"> 2 </div>
+					</div>
+					<div class="row">
+						<div class="col l-9 m-9 s-9 xs-9 cell border-left"> 9 </div>
+						<div class="col l-3 m-3 s-3 xs-3 cell"> 3 </div>	
+					</div>
+					<div class="row">
+						<div class="col l-8 m-8 s-8 xs-8 cell border-left"> 8 </div>
+						<div class="col l-4 m-4 s-4 xs-4 cell"> 4 </div>
+					</div>
+					<div class="row">
+						<div class="col l-7 m-7 s-7 xs-7 cell border-left"> 7 </div>
+						<div class="col l-5 m-5 s-5 xs-5 cell"> 5 </div>
+					</div>
+				</div>
+				<!-- Code -->
+				<div class="content">
+					<div class="relevant-content">
+						<!-- col 12 -->
+						<p>
+							<span class="keyword">&lt;div </span>
+							<span class="attribute">class=</span>
+							<span class="value">"row"</span>
+							<span class="keyword">&gt;</span>
+						</p>
+						<p class="indent">
+							<span class="keyword">&lt;div </span>
+							<span class="attribute">class=</span>
+							<span class="value">"col l-12 m-12 s-12 xs-12"</span>
+							<span class="keyword">&gt;&lt;&#x2215;div&gt;</span>
+						</p>
+						<p>
+							<span class="keyword">&lt;&#x2215;div&gt;</span>
+						</p>
+						<!-- col 11 and 1 -->
+						<p>
+							<span class="keyword">&lt;div </span>
+							<span class="attribute">class=</span>
+							<span class="value">"row"</span>
+							<span class="keyword">&gt;</span>
+						</p>
+						<p class="indent">
+							<span class="keyword">&lt;div </span>
+							<span class="attribute">class=</span>
+							<span class="value">"col l-11 m-11 s-11 xs-11"</span>
+							<span class="keyword">&gt;&lt;&#x2215;div&gt;</span>
+						</p>
+						<p class="indent">
+							<span class="keyword">&lt;div </span>
+							<span class="attribute">class=</span>
+							<span class="value">"col l-1 m-1 s-1 xs-1"</span>
+							<span class="keyword">&gt;&lt;&#x2215;div&gt;</span>
+						</p>
+						<p>
+							<span class="keyword">&lt;&#x2215;div&gt;</span>
+						</p>
+						<!-- col 10 and 2 -->
+						<p>
+							<span class="keyword">&lt;div </span>
+							<span class="attribute">class=</span>
+							<span class="value">"row"</span>
+							<span class="keyword">&gt;</span>
+						</p>
+						<p class="indent">
+							<span class="keyword">&lt;div </span>
+							<span class="attribute">class=</span>
+							<span class="value">"col l-10 m-10 s-10 xs-10"</span>
+							<span class="keyword">&gt;&lt;&#x2215;div&gt;</span>
+						</p>
+						<p class="indent">
+							<span class="keyword">&lt;div </span>
+							<span class="attribute">class=</span>
+							<span class="value">"col l-2 m-2 s-2 xs-2"</span>
+							<span class="keyword">&gt;&lt;&#x2215;div&gt;</span>
+						</p>
+						<p>
+							<span class="keyword">&lt;&#x2215;div&gt;</span>
+						</p>
+						<!-- col 9 and 3 -->
+						<p>
+							<span class="keyword">&lt;div </span>
+							<span class="attribute">class=</span>
+							<span class="value">"row"</span>
+							<span class="keyword">&gt;</span>
+						</p>
+						<p class="indent">
+							<span class="keyword">&lt;div </span>
+							<span class="attribute">class=</span>
+							<span class="value">"col l-9 m-9 s-9 xs-9"</span>
+							<span class="keyword">&gt;&lt;&#x2215;div&gt;</span>
+						</p>
+						<p class="indent">
+							<span class="keyword">&lt;div </span>
+							<span class="attribute">class=</span>
+							<span class="value">"col l-3 m-3 s-3 xs-3"</span>
+							<span class="keyword">&gt;&lt;&#x2215;div&gt;</span>
+						</p>
+						<p>
+							<span class="keyword">&lt;&#x2215;div&gt;</span>
+						</p>
+						<!-- col 8 and 4 -->
+						<p>
+							<span class="keyword">&lt;div </span>
+							<span class="attribute">class=</span>
+							<span class="value">"row"</span>
+							<span class="keyword">&gt;</span>
+						</p>
+						<p class="indent">
+							<span class="keyword">&lt;div </span>
+							<span class="attribute">class=</span>
+							<span class="value">"col l-8 m-8 s-8 xs-8"</span>
+							<span class="keyword">&gt;&lt;&#x2215;div&gt;</span>
+						</p>
+						<p class="indent">
+							<span class="keyword">&lt;div </span>
+							<span class="attribute">class=</span>
+							<span class="value">"col l-4 m-4 s-4 xs-4"</span>
+							<span class="keyword">&gt;&lt;&#x2215;div&gt;</span>
+						</p>
+						<p>
+							<span class="keyword">&lt;&#x2215;div&gt;</span>
+						</p>
+						<!-- col 7 and 5 -->
+						<p>
+							<span class="keyword">&lt;div </span>
+							<span class="attribute">class=</span>
+							<span class="value">"row"</span>
+							<span class="keyword">&gt;</span>
+						</p>
+						<p class="indent">
+							<span class="keyword">&lt;div </span>
+							<span class="attribute">class=</span>
+							<span class="value">"col l-7 m-7 s-7 xs-7"</span>
+							<span class="keyword">&gt;&lt;&#x2215;div&gt;</span>
+						</p>
+						<p class="indent">
+							<span class="keyword">&lt;div </span>
+							<span class="attribute">class=</span>
+							<span class="value">"col l-5 m-5 s-5 xs-5"</span>
+							<span class="keyword">&gt;&lt;&#x2215;div&gt;</span>
+						</p>
+						<p>
+							<span class="keyword">&lt;&#x2215;div&gt;</span>
+						</p>
+					</div>
+				</div>
+			</section>
+
+			<!-- BUTTONS -->
+			<section id="button">
+				<h2>Buttons</h2><hr>
+				<div class="content">
+					<div class="row">
+						<div class="col l-12 m-12 s-12 xs-12">
+							<button class="btn" type="button">Button</button>
+							<button class="btn red" type="button">Button</button>
+							<button class="btn pink" type="button">Button</button>
+							<button class="btn purple" type="button">Button</button>
+							<button class="btn indigo" type="button">Button</button>
+							<button class="btn blue" type="button">Button</button>
+							<button class="btn light-blue" type="button">Button</button>
+							<button class="btn cyan" type="button">Button</button>
+							<button class="btn teal" type="button">Button</button>
+							<button class="btn green" type="button">Button</button>
+							<button class="btn lime" type="button">Button</button>
+							<button class="btn yellow" type="button">Button</button>
+							<button class="btn amber" type="button">Button</button>
+							<button class="btn orange" type="button">Button</button>
+							<button class="btn brown" type="button">Button</button>
+							<button class="btn grey" type="button">Button</button>
+							<button class="btn blue-grey" type="button">Button</button>
+						</div>
+						<!-- Code -->
+						<div class="content relevant-content">
+							<p>
+								<span class="keyword">&lt;button </span>
+								<span class="attribute">class=</span>
+								<span class="value">"btn (color)"</span>
+								<span class="keyword">&gt;</span>
+								<p class="indent">Button</p>
+								<span class="keyword">&lt;&#x2215;button&gt;</span>
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- IMAGE -->
+			<section id="image">
+				<h2>Images</h2><hr>
+				<div class="content">
+					<div class="row">
+						<div class="col l-4 m-4 s-4 xs-12">
+							<h5>Img-circle</h5>
+							<img src="img/picture.png" class="img-circle" style="width: 104px; height: 140px;">
+						</div>
+						<div class="col l-4 m-4 s-4 xs-12">
+							<h5>Img-framed</h5>
+							<img src="img/picture.png" class="img-framed" style="width: 104px; height: 140px;">
+						</div>
+						<div class="col l-4 m-4 s-4 xs-12">
+							<h5>Img-rounded</h5>
+							<img src="img/picture.png" class="img-rounded" style="width: 104px; height: 140px;">
+						</div>
+					</div>
+					<div class="relevant-content">
+						<p>
+							<span class="keyword">&lt;img  </span>
+							<span class="attribute">class=</span>
+							<span class="value">"img-circle"</span>
+							<span class="attribute">src=</span>
+							<span class="value">"path"</span>
+							<span class="keyword">&gt;</span>
+						</p>
+						<p>
+							<span class="keyword">&lt;img  </span>
+							<span class="attribute">class=</span>
+							<span class="value">"img-framed"</span>
+							<span class="attribute">src=</span>
+							<span class="value">"path"</span>
+							<span class="keyword">&gt;</span>
+						</p>
+						<p>
+							<span class="keyword">&lt;img  </span>
+							<span class="attribute">class=</span>
+							<span class="value">"img-rounded"</span>
+							<span class="attribute">src=</span>
+							<span class="value">"path"</span>
+							<span class="keyword">&gt;</span>
+						</p>
+					</div>
+				</div>
+			</section>
+
+			<!-- INPUT -->
+			<section id="input">
+				<h2>Inputs</h2><hr>
+				<div class="content">
+					<h4>Normal Input</h4>
+					<input type="text" placeholder="input">
+					<!-- Code -->
+					<div class="relevant-content">
+						<p>
+							<span class="keyword">&lt;input</span>
+							<span class="attribute">type=</span>
+							<span class="value">"text"</span>
+							<span class="attribute">placeholder=</span>
+							<span class="value">"input"</span>
+							<span class="keyword">&gt;</span>
+						</p>
+					</div>
+					<h4>Input-context (left/right)</h4>
+					<div class="input-group">
+						<span class="input-context-left">@</span>
+						<input class="input-context" placeholder="email" type="email">
+						<span class="input-context-right">@</span>
+					</div>
+					<div class="input-group">
+						<span class="input-context-left">@</span>
+						<input class="input-context" placeholder="email" type="email">
+					</div>
+					<div class="input-group">
+						<input class="input-context" placeholder="email" type="email">
+						<span class="input-context-right">@</span>
+					</div>
+					<!-- Code -->
+					<div class="relevant-content">
+						<p>
+							<span class="keyword">&lt;div</span>
+							<span class="attribute">class=</span>
+							<span class="value">"input-group"</span>
+							<span class="keyword">&gt;</span>
+						</p>
+						<p class="indent">
+							<span class="keyword">&lt;span</span>
+							<span class="attribute">class=</span>
+							<span class="value">"input-context-left"</span>
+							<span class="keyword">&gt;</span>
+							@
+							<span class="keyword">&lt;&#x2215;span&gt;</span>
+						</p>
+						<p class="indent">
+							<span class="keyword">&lt;input</span>
+							<span class="attribute">class=</span>
+							<span class="value">"input-context"</span>
+							<span class="attribute">placeholder=</span>
+							<span class="value">"email"</span>
+							<span class="attribute">type=</span>
+							<span class="value">"email"</span>
+							<span class="keyword">&gt;</span>
+						</p>
+						<p class="indent">
+							<span class="keyword">&lt;span</span>
+							<span class="attribute">class=</span>
+							<span class="value">"input-context-right"</span>
+							<span class="keyword">&gt;</span>
+							@
+							<span class="keyword">&lt;&#x2215;span&gt;</span>
+						</p>
+						<p>
+							<span class="keyword">&lt;&#x2215;div&gt;</span>
+						</p>
+					</div>
+				</div>
+			</section>
+
+			<!-- LABEL -->
+			<section id="label">
+				<h2>Labels</h2><hr>
+				<div class="content">
+					<div class="row">
+						<div class="col l-12 m-12 s-12 xs-12">
+							<label class="lbl">Button</label>
+							<label class="lbl red">Button</label>
+							<label class="lbl pink">Button</label>
+							<label class="lbl purple">Button</label>
+							<label class="lbl indigo">Button</label>
+							<label class="lbl blue">Button</label>
+							<label class="lbl light-blue">Button</label>
+							<label class="lbl cyan">Button</label>
+							<label class="lbl teal">Button</label>
+							<label class="lbl green">Button</label>
+							<label class="lbl lime">Button</label>
+							<label class="lbl yellow">Button</label>
+							<label class="lbl amber">Button</label>
+							<label class="lbl orange">Button</label>
+							<label class="lbl brown">Button</label>
+							<label class="lbl grey">Button</label>
+							<label class="lbl blue-grey">Button</label>
+						</div>
+					</div>
+					<!-- Code -->
+					<div class="relevant-content">
+						<p>
+							<span class="keyword">&lt;label </span>
+							<span class="attribute">class=</span>
+							<span class="value">"lbl (color)"</span>
+							<span class="keyword">&gt;</span>
+							<p class="indent">Label</p>
+							<span class="keyword">&lt;&#x2215;label&gt;</span>
+						</p>
+					</div>
+				</div>
+			</section>
+
+			<!-- NAV -->
+			<section id="nav">
+				<h2>Navs</h2><hr>
+				<div class="content">
+					<div class="row">
+						<!-- Nav with image -->
+						<div class="col l-12 m-12 s-12 xs-12">
+							<h4>Horizontal Nav with image</h4>
+							<nav class="horizontal">
+								<ul class="topnav">
+									<li><a href="#"><img class="img-icon" src="img/image-icon.png"></a></li>
+									<li><a href="#" title="" class="active">Home</a></li>
+									<li class="right"><a href="#" title="">About</a></li>
+								</ul>
+							</nav>
+						</div>
+						<!-- Code -->
+						<div class="col l-12 m-12 s-12 xs-12">
+							<div class="relevant-content">
+								<p>
+									<p>
+										<span class="keyword">&lt;nav </span>
+										<span class="attribute">class=</span>
+										<span class="value">"horizontal"</span>
+										<span class="keyword">&gt;</span>
+									</p>
+									<div class="row">
+										<p class="indent">
+											<span class="keyword">&lt;ul </span>
+											<span class="attribute">class=</span>
+											<span class="value">"topnav"</span>
+											<span class="keyword">&gt;</span>
+										</p>
+										<p class="indent-double">
+											<span class="keyword">&lt;li&gt;&lt;a </span>
+											<span class="attribute">href=</span>
+											<span class="value">"#"</span>
+											<span class="keyword">&gt; &lt;img </span>
+											<span class="attribute">class=</span>
+											<span class="value">"img-icon"</span>
+											<span class="attribute">src=</span>
+											<span class="value">"path"</span>
+											<span class="keyword">&#x2215;&gt;&lt;&#x2215;a&gt;&lt;&#x2215;li&gt;</span>
+										</p>
+										<p class="indent-double">
+											<span class="keyword">&lt;li&gt;&lt;a </span>
+											<span class="attribute">href=</span>
+											<span class="value">"#"</span>
+											<span class="attribute">class=</span>
+											<span class="value">"active"</span>
+											<span class="keyword">&gt;</span>Home
+											<span class="keyword">&lt;&#x2215;a&gt;&lt;&#x2215;li&gt;</span>
+										</p>
+										<p class="indent-double">
+											<span class="keyword">&lt;li </span><span class="attribute">class=</span>
+											<span class="value">"right"</span>
+											<span class="keyword">&gt;&lt;a</span>
+											<span class="attribute">href=</span>
+											<span class="value">"#"</span>
+											<span class="keyword">&gt;</span>About
+											<span class="keyword">&lt;&#x2215;a&gt;&lt;&#x2215;li&gt;</span>
+										</p>
+										<p class="indent">
+											<span class="keyword">&lt;&#x2215;ul&gt;</span>
+										</p>
+									</div>
+									<p>
+										<span class="keyword">&lt;&#x2215;nav&gt;</span>
+									</p>
+								</p>
+							</div>
+						</div>
+						<!-- Normal Nav -->
+						<div class="col l-12 m-12 s-12 xs-12">
+							<h4>Horizontal Nav</h4>
+							<nav class="horizontal">
+								<ul class="topnav">
+									<li><a href="#" title="">Home</a></li>
+									<li class="right"><a href="#" title="">About</a></li>
+								</ul>
+							</nav>
+						</div>
+						<!-- Code -->
+						<div class="col l-12 m-12 s-12 xs-12">
+							<div class="relevant-content">
+								<p>
+									<p>
+										<span class="keyword">&lt;nav </span>
+										<span class="attribute">class=</span>
+										<span class="value">"horizontal"</span>
+										<span class="keyword">&gt;</span>
+									</p>
+									<div class="row">
+										<p class="indent">
+											<span class="keyword">&lt;ul </span>
+											<span class="attribute">class=</span>
+											<span class="value">"topnav"</span>
+											<span class="keyword">&gt;</span>
+										</p>
+										<p class="indent-double">
+											<span class="keyword">&lt;li&gt;&lt;a </span>
+											<span class="attribute">href=</span>
+											<span class="value">"#"</span>
+											<span class="keyword">&gt;</span>Home
+											<span class="keyword">&lt;&#x2215;a&gt;&lt;&#x2215;li&gt;</span>
+										</p>
+										<p class="indent-double">
+											<span class="keyword">&lt;li </span><span class="attribute">class=</span>
+											<span class="value">"right"</span>
+											<span class="keyword">&gt;&lt;a</span>
+											<span class="attribute">href=</span>
+											<span class="value">"#"</span>
+											<span class="keyword">&gt;</span>About
+											<span class="keyword">&lt;&#x2215;a&gt;&lt;&#x2215;li&gt;</span>
+										</p>
+										<p class="indent">
+											<span class="keyword">&lt;&#x2215;ul&gt;</span>
+										</p>
+									</div>
+									<p>
+										<span class="keyword">&lt;&#x2215;nav&gt;</span>
+									</p>
+								</p>
+							</div>
+						</div>
+						<!-- Sidebar -->
+						<div class="col l-12 m-12 s-12 xs-12">
+							<h4>Vertical Nav/Sidebar</h4>
+							<nav class="vertical">
+								<ul class="topnav">
+									<li>
+										<a href="#">
+											<span class="icon">&#x2660;</span>
+											<span class="title">  Spades</span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<span class="icon">&#x2660;</span>
+											<span class="title">  Spades</span>
+										</a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+						<!-- Code -->
+						<div class="col l-12 m-12 s-12 xs-12">
+							<div class="relevant-content">
+								<p>
+									<p>
+										<span class="keyword">&lt;nav </span>
+										<span class="attribute">class=</span>
+										<span class="value">"vertical"</span>
+										<span class="keyword">&gt;</span>
+									</p>
+									<div class="row">
+										<p class="indent">
+											<span class="keyword">&lt;ul </span>
+											<span class="attribute">class=</span>
+											<span class="value">"topnav"</span>
+											<span class="keyword">&gt;</span>
+										</p>
+										<p class="indent-double">
+											<span class="keyword">&lt;li&gt;&lt;a </span>
+											<span class="attribute">href=</span>
+											<span class="value">"#"</span>
+											<span class="keyword">&gt;</span>
+										</p>
+										<p class="indent-triple">
+											<span class="keyword">&lt;span</span>
+											<span class="attribute">class=</span>
+											<span class="value">"icon"</span>
+											<span class="keyword">&gt;</span>
+											&#x2660;
+											<span class="keyword">&lt;span&gt;</span>
+										</p>
+										<p class="indent-triple">
+											<span class="keyword">&lt;span</span>
+											<span class="attribute">class=</span>
+											<span class="value">"title"</span>
+											<span class="keyword">&gt;</span>
+											Spades
+											<span class="keyword">&lt;span&gt;</span>
+										</p>
+										<p class="indent-double">
+											<span class="keyword">&lt;&#x2215;a&gt;&lt;&#x2215;li&gt;</span>
+										</p>
+										<p class="indent">
+											<span class="keyword">&lt;&#x2215;ul&gt;</span>
+										</p>
+									</div>
+									<p>
+										<span class="keyword">&lt;&#x2215;nav&gt;</span>
+									</p>
+								</p>
+							</div>
+						</div>
+
+					</div>
+				</div>
+				<!-- Example -->
+				<div class="content">
+					<div class="row">
+						<h4>Example</h4>
+						<div class="col l-4 m-4 s-4 xs-0" style="padding: 1px;"></div>
+							<div class="col l-4 m-4 s-4 xs-12">
+								<img class="img-responsive" src="img/sidebar-nav-responsive.gif">
+							</div>
+						<div class="col l-4 m-4 s-4 xs-0" style="padding: 1px;"></div>
+					</div>
+				</div>
+			</section>
+
+			<!-- PANEL -->
+			<section id="panel">
+				<h2>Panels</h2><hr>
+				<div class="content">
+					<h4>Panel with heading</h4>
+					<div class="panel">
+						<div class="panel-heading"> title </div>
+						<div class="panel-body"> Panel body </div>
+					</div>
+					<!-- Code -->
+					<div class="relevant-content">
+						<p>
+							<span class="keyword">&lt;div </span>
+							<span class="attribute">class=</span>
+							<span class="value">"panel"</span>
+							<span class="keyword">&gt;</span>
+						</p>
+						<p class="indent">
+							<span class="keyword">&lt;div </span>
+							<span class="attribute">class=</span>
+							<span class="value">"panel-heading"</span>
+							<span class="keyword">&gt;</span>
+						</p>
+						<p class="indent-double"> title </p>
+						<p class="indent">
+							<span class="keyword">&lt;&#x2215;div&gt;</span>
+						</p>
+						<p class="indent">
+							<span class="keyword">&lt;div </span>
+							<span class="attribute">class=</span>
+							<span class="value">"panel-body"</span>
+							<span class="keyword">&gt;</span>
+						</p>
+						<p class="indent-double"> Panel body </p>
+						<p class="indent">
+							<span class="keyword">&lt;&#x2215;div&gt;</span>
+						</p>
+						<p>
+							<span class="keyword">&lt;&#x2215;div&gt;</span>
+						</p>
+					</div>
+					<h4>Panel</h4>
+					<div class="panel">
+						<div class="panel-body"> Panel body </div>
+					</div>
+					<!-- Code -->
+					<div class="relevant-content">
+						<p>
+							<span class="keyword">&lt;div </span>
+							<span class="attribute">class=</span>
+							<span class="value">"panel"</span>
+							<span class="keyword">&gt;</span>
+						</p>
+						<p class="indent">
+							<span class="keyword">&lt;div </span>
+							<span class="attribute">class=</span>
+							<span class="value">"panel-body"</span>
+							<span class="keyword">&gt;</span>
+						</p>
+						<p class="indent-double"> Panel body </p>
+						<p class="indent">
+							<span class="keyword">&lt;&#x2215;div&gt;</span>
+						</p>
+						<p>
+							<span class="keyword">&lt;&#x2215;div&gt;</span>
+						</p>
+					</div>
+				</div>
+			</section>
+
+			<section id="table">
+				<h2>Tables</h2><hr>
+				<div class="content">
+					<!-- Without style -->
+					<h4>Without style</h4>
+					<table>
+						<thead>
+							<tr>
+								<th>Header</th>
+								<th>Header</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>data</td>
+								<td>data</td>
+							</tr>
+						</tbody>
+					</table>
+					<!-- Code -->
+					<div class="relevant-content">
+						<p>
+							<span class="keyword">&lt;table&gt;</span>
+						</p>
+						<p class="indent">
+							<span class="keyword">&lt;thead&gt;</span>
+						</p>
+						<p class="indent-double">
+							<span class="keyword">&lt;tr&gt;</span>
+						</p>
+						<p class="indent-triple">
+							<span class="keyword">&lt;th&gt;</span>
+							Header
+							<span class="keyword">&lt;&#x2215;th&gt;</span>
+						</p>
+						<p class="indent-triple">
+							<span class="keyword">&lt;th&gt;</span>
+							Header
+							<span class="keyword">&lt;&#x2215;th&gt;</span>
+						</p>
+						<p class="indent-double">
+							<span class="keyword">&lt;&#x2215;tr&gt;</span>
+						</p>
+						<p class="indent">
+							<span class="keyword">&lt;&#x2215;thead&gt;</span>
+						</p>
+						<p class="indent">
+							<span class="keyword">&lt;tbody&gt;</span>
+						</p>
+						<p class="indent-double">
+							<span class="keyword">&lt;tr&gt;</span>
+						</p>
+						<p class="indent-triple">
+							<span class="keyword">&lt;td&gt;</span>
+							data
+							<span class="keyword">&lt;&#x2215;td&gt;</span>
+						</p>
+						<p class="indent-triple">
+							<span class="keyword">&lt;td&gt;</span>
+							data
+							<span class="keyword">&lt;&#x2215;td&gt;</span>
+						</p>
+						<p class="indent-double">
+							<span class="keyword">&lt;&#x2215;tr&gt;</span>
+						</p>
+						<p class="indent">
+							<span class="keyword">&lt;&#x2215;tbody&gt;</span>
+						</p>
+						<p>
+							<span class="keyword">&lt;&#x2215;table&gt;</span>
+						</p>						
+					</div>
+					<!-- Table -->
+					<h4>Table</h4>
+					<table class="table">
+						<thead>
+							<tr>
+								<th>Header</th>
+								<th>Header</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>data</td>
+								<td>data</td>
+							</tr>
+						</tbody>
+					</table>
+					<!-- Code -->
+					<div class="relevant-content">
+						<p>
+							<span class="keyword">&lt;table</span>
+							<span class="attribute">class=</span>
+							<span class="value">"table"</span>
+							<span class="keyword">&gt;</span>
+						</p>
+					</div>
+					<!-- Table-border-bottom -->
+					<h4>Table-border-bottom</h4>
+					<table class="table-border-bottom">
+						<thead>
+							<tr>
+								<th>Header</th>
+								<th>Header</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>data</td>
+								<td>data</td>
+							</tr>
+						</tbody>
+					</table>
+					<!-- Code -->
+					<div class="relevant-content">
+						<p>
+							<span class="keyword">&lt;table</span>
+							<span class="attribute">class=</span>
+							<span class="value">"table-border-bottom"</span>
+							<span class="keyword">&gt;</span>
+						</p>
+					</div>
+					<!-- Table Stripped -->
+					<h4>Stripped Table</h4>
+					<table class="table-border-bottom stripped">
+						<thead>
+							<tr>
+								<th>Header</th>
+								<th>Header</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>data</td>
+								<td>data</td>
+							</tr>
+							<tr>
+								<td>data</td>
+								<td>data</td>
+							</tr>
+							<tr>
+								<td>data</td>
+								<td>data</td>
+							</tr>
+							<tr>
+								<td>data</td>
+								<td>data</td>
+							</tr>
+						</tbody>
+					</table>
+					<!-- Code -->
+					<div class="relevant-content">
+						<p>
+							<span class="keyword">&lt;table</span>
+							<span class="attribute">class=</span>
+							<span class="value">"table-border-bottom stripped"</span>
+							<span class="keyword">&gt;</span>
+						</p>
+					</div>
+					<!-- Table Hover -->
+					<h4>Hover Table</h4>
+					<table class="table hover">
+						<thead>
+							<tr>
+								<th>Header</th>
+								<th>Header</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>data</td>
+								<td>data</td>
+							</tr>
+							<tr>
+								<td>data</td>
+								<td>data</td>
+							</tr>
+							<tr>
+								<td>data</td>
+								<td>data</td>
+							</tr>
+							<tr>
+								<td>data</td>
+								<td>data</td>
+							</tr>
+						</tbody>
+					</table>
+					<!-- Code -->
+					<div class="relevant-content">
+						<p>
+							<span class="keyword">&lt;table</span>
+							<span class="attribute">class=</span>
+							<span class="value">"table hover"</span>
+							<span class="keyword">&gt;</span>
+						</p>
+					</div>
+				</div>
+			</section>
+
+			<!-- Modal Section -->
+			<section id="modal-section">
+				<h2>Modal</h2><hr>
+				<div class="content">
+					<p>For this component it is necessary to have the reference to the file modal.js</p>
+					<div class="relevant-content">
+						<p>
+							<span class="keyword">&lt;script</span>
+							<span class="attribute">type=</span>
+							<span class="value">"text&#x2215;javascript"</span>
+							<span class="attribute">src=</span>
+							<span class="value">"File path modal.js"</span>
+							<span class="keyword">&gt;&lt;&#x2215;script&gt;</span>
+						</p>
+					</div>
+					<p>Modal Code</p>
+					<div class="relevant-content">
+						<p>
+							<span class="keyword">&lt;div</span>
+							<span class="attribute">id=</span>
+							<span class="value">"modal"</span>
+							<span class="attribute">class=</span>
+							<span class="value">"modal"</span>
+							<span class="keyword">&gt;</span>
+						</p>
+						<p class="indent">
+							<span class="keyword">&lt;div</span>
+							<span class="attribute">id=</span>
+							<span class="value">"modal-body"</span>
+							<span class="attribute">class=</span>
+							<span class="value">"modal-body"</span>
+							<span class="keyword">&gt;</span>
+						</p>
+						<p class="indent-double">
+							<span class="keyword">&lt;div</span>
+							<span class="attribute">class=</span>
+							<span class="value">"panel"</span>
+							<span class="keyword">&gt;</span>
+						</p>
+						<p class="indent-triple">
+							<span class="keyword">&lt;div</span>
+							<span class="attribute">class=</span>
+							<span class="value">"panel-body"</span>
+							<span class="keyword">&gt;</span>
+							Modal content
+							<span class="keyword">&lt;&#x2215;div&gt;</span>
+						</p>
+						<p class="indent-double">
+							<span class="keyword">&lt;&#x2215;div&gt;</span>
+						</p>
+						<p class="indent-double">
+							<span class="keyword">&lt;button</span>
+							<span class="attribute">class=</span>
+							<span class="value">"btn-danger"</span>
+							<span class="attribute">type=</span>
+							<span class="value">"button"</span>
+							<span class="attribute"> onclick=</span>
+							<span class="value">"closeModal()"</span>
+							<span class="keyword">&gt;</span>
+						</p>
+						<p class="indent-triple"> Cancel </p>
+						<p class="indent-double">
+							<span class="keyword">&lt;&#x2215;button&gt;</span>
+						</p>
+						<p class="indent">
+							<span class="keyword">&lt;&#x2215;div&gt;</span>
+						</p>
+						<p>
+							<span class="keyword">&lt;&#x2215;div&gt;</span>
+						</p>
+					</div>
+					<p>Modal Display Code</p>
+					<div class="relevant-content">
+						<p>
+							<span class="keyword">&lt;button</span>
+							<span class="attribute">class=</span>
+							<span class="value">"btn-default"</span>
+							<span class="attribute">type=</span>
+							<span class="value">"button"</span>
+							<span class="attribute">onclick=</span>
+							<span class="value">"showModal()"</span>
+							<span class="keyword">&gt;</span>
+						</p>
+						<p class="indent"> Show Modal </p>
+						<p>
+							<span class="keyword">&lt;&#x2215;button&gt;</span>
+						</p>
+					</div>
+					<button class="btn" type="button" onclick="showModal()">
+						Show Modal
+					</button>
+				</div>
+			</section>
+
+		</div><!-- Content -->
+
+	</div><!-- Container -->
+
+	<!-- Modal -->
+	<div id="modal" class="modal">
+		<div id="modal-body" class="modal-body">
+			<div class="panel">
+				<div class="panel-body">
+					Modal content
+				</div>
+			</div>
+			<button class="btn red" type="button" onclick="closeModal()">Cancel</button>
+		</div>	
+	</div>
+
+	<div class="developer">
+		<img src="img/developer.png">
+	</div>
+	<footer id="about">
+		<div class="row">
+			<a class="link" href="https://github.com/bryandms" target="_blank"><img src="img/github.png"></a>
+		</div>
+		<div class="row" style="color: #FFF;">
+			 Cartago Costa Rica, Developed by @bryandms
+		</div>
+	</footer>
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/modal.js"></script>
+	<script type="text/javascript" src="js/menu-button.js"></script>
+	
+</body>
+</html>

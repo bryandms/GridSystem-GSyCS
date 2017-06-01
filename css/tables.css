@@ -1,0 +1,43 @@
+/*====================================================
+TABLE
+====================================================*/
+table {
+    width: 95%;
+    margin: 1%;
+    border-collapse: collapse;
+}
+
+th { 
+  font-weight: bold;
+}
+
+th, td {
+    padding: 0.375rem;
+    text-align: left;
+}
+
+.hover tr:hover {
+    background-color: #F5F5F5;
+}
+
+.stripped tr:nth-child(even) {
+    background-color: #F5F5F5;
+}
+
+/* BORDERED TABLE */
+.table, .table th, .table td {
+    border: 1px solid #DDDDDD;
+}
+
+.table th {
+    border-bottom: 2px solid #DDDDDD;
+}
+
+/* BORDER BOTTOM TABLE */
+.table-border-bottom, .table-border-bottom th, .table-border-bottom td {
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.table-border-bottom th {
+    border-bottom: 2px solid #DDDDDD;   
+}

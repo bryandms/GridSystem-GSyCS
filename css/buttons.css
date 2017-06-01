@@ -1,0 +1,13 @@
+/*====================================================
+BUTTON
+====================================================*/
+.btn {
+    padding: 0.3125rem 0.625rem;
+    margin: 0.0625rem;
+    white-space: nowrap;
+    cursor: pointer;
+    border: none;
+    border-radius: 0.25em;
+    color: #FFF;
+    font-size: 1em;
+}
