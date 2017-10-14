@@ -63,24 +63,3 @@ $(document).ready( function() {
 			$('#up-action').slideUp(300);
 	})
 });
-
-/* Upload button */
-// var up;
-// function goUp() {
-// 	if (document.body.scrollTop != 0 || document.documentElement.scrollTop != 0) {
-		
-// 		window.scrollBy(0, -400);
-// 		up = setTimeout('goUp()', 10);
-// 		document.getElementById('up-action').style.display = "none";
-// 	}
-// 	else clearTimeout(up);
-// }
-
-// function showUploadBtn() {
-// 	if( window.scrollY > 400)
-// 		document.getElementById('up-action').style.display = "block";
-// 	else
-// 		document.getElementById('up-action').style.display = "none";
-// }
-
-// addEvent(document, "wheel", showUploadBtn);
